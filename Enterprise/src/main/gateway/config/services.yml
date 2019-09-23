@@ -1,0 +1,113 @@
+Enterprise/consul/Consul - ServiceRoute:
+  url: "/microsvc/*"
+  policy: "Enterprise/consul/Consul - ServiceRoute"
+  httpMethods:
+  - "DELETE"
+  - "POST"
+  - "GET"
+  - "PUT"
+  properties: {}
+  wssProcessingEnabled: false
+
+
+#Enterprise/consul/Consul-RegisterService:
+#  url: "/service/register"
+#  policy: "Enterprise/consul/Consul-RegisterService"
+#  httpMethods:
+#  - "DELETE"
+#  - "POST"
+#  - "GET"
+#  - "PUT"
+#  properties: {}
+#  wssProcessingEnabled: false
+#Enterprise/consul/Consul-Get:
+#  url: "/get/key*"
+#  policy: "Enterprise/consul/Consul-Get"
+#  httpMethods:
+#  - "DELETE"
+#  - "POST"
+#  - "GET"
+#  - "PUT"
+#  properties: {}
+#  wssProcessingEnabled: false
+#Enterprise/consul/Consul-Route:
+#  url: "/route/key*"
+#  policy: "Enterprise/consul/Consul-Route"
+#  httpMethods:
+#  - "DELETE"
+#  - "POST"
+#  - "GET"
+#  - "PUT"
+#  properties: {}
+#  wssProcessingEnabled: false
+#Enterprise/consul/Consul-ServiceCatalog:
+#  url: "/service/catalog*"
+#  policy: "Enterprise/consul/Consul-ServiceCatalog"
+#  httpMethods:
+#  - "DELETE"
+#  - "POST"
+#  - "GET"
+#  - "PUT"
+#  properties: {}
+#  wssProcessingEnabled: false
+#Enterprise/consul/Consul-PUT:
+#  url: "/put/key*"
+#  policy: "Enterprise/consul/Consul-PUT"
+#  httpMethods:
+#  - "DELETE"
+#  - "POST"
+#  - "GET"
+#  - "PUT"
+#  properties: {}
+#  wssProcessingEnabled: false
+#Enterprise/consul/Consul-AgentService:
+#  url: "/agent/services"
+#  policy: "Enterprise/consul/Consul-AgentService"
+#  httpMethods:
+#  - "DELETE"
+#  - "POST"
+#  - "GET"
+#  - "PUT"
+#  properties: {}
+#  wssProcessingEnabled: false
+#Enterprise/consul/Consul-DeRegisterService:
+#  url: "/service/deregister"
+#  policy: "Enterprise/consul/Consul-DeRegisterService"
+#  httpMethods:
+#  - "DELETE"
+#  - "POST"
+#  - "GET"
+#  - "PUT"
+#  properties: {}
+#  wssProcessingEnabled: false
+
+Enterprise/Proxies/CONTACT:
+  url: "/contact/*"
+  policy: "Enterprise/Proxies/CONTACT"
+  httpMethods:
+  - "DELETE"
+  - "POST"
+  - "GET"
+  - "PUT"
+  properties: {}
+  wssProcessingEnabled: false
+Enterprise/Proxies/Order:
+  url: "/order/*"
+  policy: "Enterprise/Proxies/Order"
+  httpMethods:
+  - "DELETE"
+  - "POST"
+  - "GET"
+  - "PUT"
+  properties: {}
+  wssProcessingEnabled: false
+Enterprise/Proxies/PROXY1:
+  url: "/rest/api01"
+  policy: "Enterprise/Proxies/PROXY1"
+  httpMethods:
+  - "DELETE"
+  - "POST"
+  - "GET"
+  - "PUT"
+  properties: {}
+  wssProcessingEnabled: false
