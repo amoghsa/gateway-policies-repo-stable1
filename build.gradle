@@ -18,10 +18,10 @@ buildscript {
     }
 }
 
-group 'broadcom'
-version = '1.0.0'
-
 subprojects {
+    group 'broadcom'
+    version = '1.0.0'
+
     apply plugin: 'com.ca.apim.gateway.gateway-developer-plugin'
     if (!project.name.equals('deployment')) {
         apply plugin: 'com.ca.apim.gateway.gateway-export-plugin'
