@@ -1,8 +1,0 @@
-testUpdater:
-  policy: "ConsulUpdate/testUpdater"
-  isOneNode: true
-  jobType: "Recurring"
-  jobStatus: "Scheduled"
-  cronExpression: "0 */2 * * * ?"
-  shouldExecuteOnCreate: false
-  properties: {}
